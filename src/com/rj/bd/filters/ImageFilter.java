@@ -26,7 +26,7 @@ public class ImageFilter implements Filter {
 	@Override
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain chain)
 			throws IOException, ServletException {
-     System.out.println("ImageFilter开始过");	
+     System.out.println("ImageFilter开始");	
      //1.通过强转获取到request对象和response对象
      HttpServletRequest request=(HttpServletRequest) servletRequest;
      HttpServletResponse response=(HttpServletResponse) servletResponse;
