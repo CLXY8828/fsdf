@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>利用js创建时间戳</title>
+</head>
+<body>
+   <script type="text/javascript">
+ //第一种方法：
+   var timestamp1 = Date.parse(new Date());
+   document.write(timestamp1+"<br/>");
+   
+ //第二种方法：
+   var timestamp2 = (new Date()).valueOf();
+   document.write(timestamp2+"<br/>");
+   
+ //第三种方法：
+   var timestamp3=new Date().getTime();
+   document.write(timestamp3+"<br/>");
+   
+   </script>
+</body>
+</html>
